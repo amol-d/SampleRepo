@@ -21,6 +21,12 @@
             android:name=".PredictorActivity"
             android:label="@string/title_activity_predictor"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity
+            android:name=".ChatActivity"
+            android:label="@string/title_activity_predictor"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
     </application>
 
 </manifest>
