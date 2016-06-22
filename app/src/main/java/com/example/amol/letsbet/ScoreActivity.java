@@ -62,7 +62,8 @@ public class ScoreActivity extends AppCompatActivity implements View.OnClickList
             case R.id.fabBet:
 //                animateFAB();
                 menuRed.close(true);
-                startActivity(new Intent(getApplicationContext(), PredictorActivity.class));
+                new PredictorDialog(this, PredictorDialog.PredictionType.TYPE_MOM).show();
+               // startActivity(new Intent(getApplicationContext(), PredictorActivity.class));
                 break;
             case R.id.fabComment:
                 menuRed.close(true);

@@ -1,4 +1,25 @@
 <resources>
     <string name="app_name">LetsBet</string>
     <string name="title_activity_predictor">PredictorActivity</string>
+    <string-array name="teams">
+        <item>Ger</item>
+        <item>Italy</item>
+    </string-array>
+
+    <string-array name="players">
+        <item>Player Name</item>
+        <item>Player Name</item>
+        <item>Player Name</item>
+
+        <item>Player Name</item>
+        <item>Player Name</item>
+        <item>Player Name</item>
+
+        <item>Player Name</item>
+        <item>Player Name</item>
+        <item>Player Name</item>
+
+        <item>Player Name</item>
+        <item>Player Name</item>
+    </string-array>
 </resources>

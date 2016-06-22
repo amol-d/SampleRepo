@@ -106,7 +106,9 @@ public class ChatActivity extends AppCompatActivity {
             chatRecyclerAdapter.addMessage(Util.getNewMessage());
             rvChat.scrollToPosition(chatRecyclerAdapter.getItemCount() - 1);
             monitorMemoryUsage();
-            handler.postDelayed(this, 5000);
+            if (handler != null) {
+                handler.postDelayed(this, 5000);
+            }
         }
     };
 
